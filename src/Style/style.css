@@ -151,9 +151,32 @@ h1 {
     font-size: 2.5em;
     text-align: center;
 }
+.testedepoimentos{
+    display:flex;
+}
+.depoimentos{
+    display:inline-block;
+    width:30%;
+    vertical-align:top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:2px black solid;
+    border-radius:10px;
+    }
+.imgdepoimentos{
+    width: 250px;
+    border: 5px solid;
+    border-image: linear-gradient(90deg, rgba(35, 64, 122, 0.9) 0%, rgba(235, 123, 60, 0.9) 100%) 1;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    
+}
 .contato  p{
     font-size: 20em;
-    font-weight:bold;
+    ;
 
 }
 .contato > h1{
