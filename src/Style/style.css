@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: flex-start;
     background: rgba(35, 64, 122, 0.9);
+    z-index: 1;
 }
 
 .headerBtn {
@@ -41,8 +42,6 @@ main {
     flex-wrap: wrap;
     gap: 5rem;
 }
-
-@media (min-width: 820px) and (max-width: 1155px) {}
 
 @media (max-width: 820px) {
     .faq {
@@ -116,14 +115,17 @@ h1 {
     width: 200px;
 }
 
+
+/*
+* FAQ
+*/
+
 .faqBackground,
 .accordion-item,
-.accordion-button {
-    background-color: rgb(3, 5, 87);
-}
-
+.accordion-button,
 .accordion-button:not(.collapsed) {
     background-color: rgb(3, 5, 87);
+    z-index: 0;
 }
 
 
@@ -140,11 +142,6 @@ h1 {
     box-sizing: border-box;
     border: 2px black solid;
     border-radius: 10px;
-}
-
-.cardImg {
-    /* border-radius: 100%; */
-    width: 1px;
 }
 
 .contato p {
