@@ -1,11 +1,12 @@
 html {
-    scroll-padding-top: 75px;
+    scroll-padding-top: 85px;
     /* height of sticky header */
 }
 
 #header {
     position: sticky;
     top: 0;
+    height: 13vh;
     padding: 1% 4.5% 0 4.5%;
     display: inline-flex;
     flex-wrap: wrap;
@@ -14,6 +15,7 @@ html {
     align-items: flex-start;
     background: rgba(35, 64, 122, 0.9);
     z-index: 1;
+    box-shadow: 0 3px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .headerBtn {
