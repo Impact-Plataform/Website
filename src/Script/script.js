@@ -1,19 +1,29 @@
-const sections = document.querySelectorAll("section");
+const sections = []
+sections.push(document.querySelector("#inicio"))
+sections.push(document.querySelector("#sobre"))
+sections.push(document.querySelector("#apoiadores"))
+sections.push(document.querySelector("#carreiras"))
+sections.push(document.querySelector("#depoimentos"))
+sections.push(document.querySelector("#faq"))
+sections.push(document.querySelector("#contato"))
+
+
 const navLi = document.querySelectorAll("nav ul li");
 const header = document.querySelector("#header")
-window.addEventListener("scroll", () => {
-  //shrink header
+const shrinkHeader = () => {
   if(scrollY > 10){
     header.classList.add("small-header")
   } else{
     header.classList.remove("small-header")
   }
+}
+window.addEventListener("scroll", () => {
+  shrinkHeader()
   let current = "";
   sections.forEach((section) => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
-    console.log(`Element: ${section.id} \nScrollY: ${scrollY} \n ${sectionTop - sectionHeight / 3}` );
-    if (scrollY >= sectionTop - sectionHeight / 3) {
+    if (scrollY >= sectionTop - 200) {
       current = section.getAttribute("id");
     }
   });

@@ -65,8 +65,13 @@ section {
 #apoiadores {
     height: 25%;
 }
+#banner {
+    height: 25%;
+}
+#carreiras {
+    height: 25%;
+}
 .destacado {
-    background-color: red!important;
     color: rgba(235, 123, 60, 0.9)!important;
     border-bottom: rgba(235, 123, 60, 0.9) solid 2px;
     font-weight: bolder;
@@ -154,16 +159,16 @@ h1 {
 * DEPOIMENTOS
 */
 
-.depoimentos {
+/* .depoimentos {
     display: inline-block;
-    /* width: 30%; */
+    width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px black solid;
     border-radius: 10px;
-}
+} */
 
 .contato p {
     font-size: 20em;
