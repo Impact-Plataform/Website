@@ -84,6 +84,7 @@ section {
     padding: 10px 20px;
     color: white;
     transition: .5s;
+    text-decoration: none;
 }
 
 .defaultBtn:hover {
