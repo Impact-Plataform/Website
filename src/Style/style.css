@@ -53,8 +53,17 @@ h1 {
     font-size: 2.5em;
 }
 
+.paragraphPadrao {
+    font-size: 1.6em;
+}
+
+.h2Padrao {
+    font-size: 2em;
+    font-weight: bold;
+}
+
 .propagandas {
-    width: 100%;
+    width: 90%;
     height: 100%;
     border-radius: 10px;
     background-color: rgb(241, 241, 241);
@@ -63,17 +72,21 @@ h1 {
 
 .logoimg {
     width: 15%;
-    padding-left: 0.6em;
-    padding-top: 0.7em;
+    padding: 15px;
 }
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+/*
+* Banner
+*/
 
 .textodegrade {
     text-align: center;
-}
-
-.accordion-button,
-.accordion-collapse {
-    font-size: 1.2em;
 }
 
 .gary {
@@ -91,6 +104,11 @@ h1 {
 /*
 * FAQ
 */
+
+.accordion-button,
+.accordion-collapse {
+    font-size: 1.2em;
+}
 
 .faqBackground,
 .accordion-item,
@@ -188,7 +206,4 @@ form label {
     #Card {
         min-width: 110%;
     }
-    /* .supportBtn {
-        justify-content: center;
-    } */
 }
