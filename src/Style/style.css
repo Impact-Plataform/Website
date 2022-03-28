@@ -25,6 +25,7 @@ html {
     width: 90%;
     margin: 0px auto;
 }
+
 section {
     height: 80vh;
     margin-bottom: 5%;
@@ -66,15 +67,19 @@ section {
 #sobre {
     height: 25%;
 }
+
 #apoiadores {
     height: 25%;
 }
+
 #banner {
     height: 25%;
 }
+
 #carreiras {
     height: 25%;
 }
+
 .destacado {
     color: rgba(235, 123, 60, 0.9)!important;
     border-bottom: rgba(235, 123, 60, 0.9) solid 2px;
@@ -121,9 +126,7 @@ h1 {
 }
 
 .logoimg {
-    width: 15%;
-    padding-left: 0.6em;
-    padding-top: 0.7em;
+    padding: 15px;
 }
 
 .textodegrade {
@@ -210,6 +213,9 @@ form label {
         margin-left: 15%;
         width: 300px;
         height: 200px;
+    }
+    .propagandas {
+        margin-top: 2.5%;
     }
     .cardSection {
         margin-left: 12%;
