@@ -56,8 +56,12 @@ section {
 }
 
 .headerBtn {
-    margin-left: 20px;
+    margin-left: 60px;
     text-decoration: none;
+}
+.nav-item a:hover {
+    font-weight: bold;
+    
 }
 
 #sobre {
