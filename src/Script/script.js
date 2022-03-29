@@ -1,37 +1,50 @@
-const sections = []
-sections.push(document.querySelector("#inicio"))
-sections.push(document.querySelector("#sobre"))
-sections.push(document.querySelector("#apoiadores"))
-sections.push(document.querySelector("#carreiras"))
-sections.push(document.querySelector("#depoimentos"))
-sections.push(document.querySelector("#faq"))
-sections.push(document.querySelector("#contato"))
+const sections = document.querySelectorAll("section.menutracker");
+// sections.push(document.querySelector("#inicio"))
+// sections.push(document.querySelector("#sobre"))
+// sections.push(document.querySelector("#apoiadores"))
+// sections.push(document.querySelector("#carreiras"))
+// sections.push(document.querySelector("#depoimentos"))
+// sections.push(document.querySelector("#faq"))
+// sections.push(document.querySelector("#contato"))
 
 
+const btnMobile = document.querySelector("#btn-mobile");
 const navLi = document.querySelectorAll("nav ul li");
 const header = document.querySelector("#header")
-const shrinkHeader = () => {
-  if(scrollY > 10){
-    header.classList.add("small-header")
-  } else{
-    header.classList.remove("small-header")
-  }
-}
-window.addEventListener("scroll", () => {
-  shrinkHeader()
+
+function sectionTracker(sections) {
   let current = "";
   sections.forEach((section) => {
     const sectionTop = section.offsetTop;
-    const sectionHeight = section.clientHeight;
-    if (scrollY >= sectionTop - 200) {
+    if (scrollY >= sectionTop - 150) {
       current = section.getAttribute("id");
     }
   });
-
   navLi.forEach((li) => {
     li.classList.remove("destacado");
     if (li.classList.contains(current)) {
       li.classList.add("destacado");
     }
   });
+}
+window.addEventListener("scroll", () => {
+  sectionTracker(sections)
 });
+
+
+
+
+function toggleMenu(event) {
+  if(event.type === 'touchstart') event.preventDefault();
+  const nav = document.querySelector("#nav");
+  nav.classList.toggle("active");
+  const active = nav.classList.contains("active");
+  event.currentTarget.setAttribute('aria-expanded',active);
+  if(active){
+    event.currentTarget.setAttribute('aria-label','Fechar menu');
+  }else{
+    event.currentTarget.setAttribute('aria-label','Abrir menu');
+  }
+}
+btnMobile.addEventListener("click", toggleMenu);
+btnMobile.addEventListener("touchstart", toggleMenu);
