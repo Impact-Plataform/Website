@@ -1,27 +1,10 @@
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
- ::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
- ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
 
 #rodape {
     background-color: var(--main-blue);
     color: var(--main-orange);
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-size: 2rem;
     text-align: center;
-    vertical-align: center;
-    box-sizing: border-box;
     box-shadow: 0 3px 2px 1px rgba(0, 0, 0, 0.2);
     height: 10vh;
 }
@@ -67,19 +50,4 @@ h1 {
     color: var(--main-orange)!important;
     border-bottom: var(--main-orange) solid 2px;
     font-weight: bolder;
-}
-
-.defaultBtn {
-    padding: 6px 32px;
-    background-color: var(--main-orange);
-    border-radius: 20px;
-    border: none;
-    color: white;
-    transition: .5s;
-    text-decoration: none;
-}
-
-.defaultBtn:hover {
-    box-shadow: 0 5px 2px 1px rgba(0, 0, 0, 0.2);
-    transform: scale(1.03);
 }
