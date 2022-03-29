@@ -2,6 +2,9 @@
     .navbar-toggler {
         display: none;
     }
+    #carreiras {
+        margin-top: 20%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -35,8 +38,8 @@
     .propagandas {
         margin-top: 2.5%;
     }
-    #banner {
-        margin-bottom: 25%;
+    #carreiras {
+        margin-top: 30%;
     }
     .cardSection {
         margin-left: 12%;
@@ -60,27 +63,8 @@
     }
 }
 
-@media (max-width: 450px) {
-    #banner>div {
-        height: 650px;
-    }
-    .bannerParagraph {
-        padding: 5%;
-    }
-    .gary {
-        right: 5%;
-        top: 400px;
-    }
-    #banner {
-        margin-bottom: 40%;
-    }
-}
-
-@media (max-width: 380px) {
-    #banner>div {
-        height: 650px;
-    }
-    .gary {
-        top: 350px;
+@media (max-width: 500px) {
+    #carreiras {
+        margin-top: 55%;
     }
 }
