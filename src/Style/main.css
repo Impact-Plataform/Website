@@ -7,3 +7,8 @@
 @import url(./contato.css);
 @import url(./depoimentos.css);
 @import url(./banner.css);
+
+:root {
+  --main-orange: hsl(22, 81%, 58%);
+  --main-blue: hsl(220, 55%, 31%);
+}
