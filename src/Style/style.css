@@ -14,8 +14,17 @@
     background: #555;
 }
 
-.row {}
-
+#rodape {
+    background-color: var(--main-blue);
+    color: var(--main-orange);
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 3px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 10vh;
+}
 .lays {
     height: 100%;
     width: 100%;
