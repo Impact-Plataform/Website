@@ -1,0 +1,26 @@
+#banner {
+    position: relative;
+    height: 25%;
+    margin-bottom: 10%;
+}
+
+#banner>div {
+    height: 500px;
+}
+
+.textodegrade {
+    text-align: center;
+}
+
+.gary {
+    position: absolute;
+    right: 60px;
+    top: 250px;
+    opacity: 1;
+    padding-top: 3.5em;
+}
+
+.garyimg {
+    border-radius: 100%;
+    width: 200px;
+}

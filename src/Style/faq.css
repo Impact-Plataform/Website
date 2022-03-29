@@ -1,0 +1,12 @@
+.accordion-button,
+.accordion-collapse {
+    font-size: 1.2em;
+}
+
+.faqBackground,
+.accordion-item,
+.accordion-button,
+.accordion-button:not(.collapsed) {
+    background-color: rgb(3, 5, 87);
+    z-index: 0;
+}

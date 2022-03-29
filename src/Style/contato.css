@@ -1,0 +1,40 @@
+.contato p {
+    font-size: 20em;
+}
+
+.contato>h1 {
+    font-size: 2.5em;
+}
+
+#plataformaLogo {
+    width: 55%;
+    padding-top: 15%;
+    display: flex;
+    margin-left: 25%
+}
+
+.icons {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    width: 95%;
+    border-radius: 5px;
+}

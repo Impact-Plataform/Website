@@ -1,0 +1,86 @@
+@media (max-width: 1024px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #inicio {
+        margin-bottom: 1%;
+    }
+    .headerBtn {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-bottom: 8px;
+    }
+    nav {
+        width: 100%;
+        background-color: rgba(35, 64, 122, 0.9);
+    }
+    #HeaderLogo {
+        margin-top: 8px;
+        margin-right: 0;
+    }
+    .lays {
+        width: 120%;
+        height: 100%;
+        padding-left: 25%;
+    }
+    iframe {
+        margin-left: 15%;
+        width: 300px;
+        height: 200px;
+    }
+    .propagandas {
+        margin-top: 2.5%;
+    }
+    #banner {
+        margin-bottom: 25%;
+    }
+    .cardSection {
+        margin-left: 12%;
+    }
+    form,
+    h1,
+    .paragraph,
+    .faq {
+        margin-left: 8%;
+        margin-right: 8%;
+        text-align: center;
+    }
+    .faq {
+        min-width: 85%;
+    }
+    #FaqItem {
+        margin-top: 12%;
+    }
+    #Card {
+        min-width: 110%;
+    }
+}
+
+@media (max-width: 450px) {
+    #banner>div {
+        height: 650px;
+    }
+    .bannerParagraph {
+        padding: 5%;
+    }
+    .gary {
+        right: 5%;
+        top: 400px;
+    }
+    #banner {
+        margin-bottom: 40%;
+    }
+}
+
+@media (max-width: 380px) {
+    #banner>div {
+        height: 650px;
+    }
+    .gary {
+        top: 350px;
+    }
+}
