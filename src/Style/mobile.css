@@ -19,7 +19,7 @@
     }
     nav {
         width: 100%;
-        background-color: rgba(35, 64, 122, 0.9);
+        background-color: var(--main-blue);
     }
     #HeaderLogo {
         margin-top: 8px;

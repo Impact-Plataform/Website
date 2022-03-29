@@ -19,49 +19,37 @@
 
 <body>
     <header id="header">
-
-        <img id="HeaderLogo" src="src/medias/logomarcas/plataformaLogoBranca.svg" alt="">
-
-
-        <nav class="headerMenu navbar-expand-lg navbar-light ">
-
-            <button class="navbar-toggler bg-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <a href="/" class="logo">
+            <img src="src/medias/logomarcas/plataformaLogoBranca.svg" alt="Logomarca da Plataforma impact">
+        </a>
+        <nav id="nav">
+            <button id="btn-mobile" aria-haspopup="true" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center " id="navbarToggler">
-                <ul class="navbar-nav d-flex justify-content-center ">
-                    <li class="inicio nav-item">
-                        <a class="nav-link text-light px-2 " href="#inicio">Início</a>
-                    </li>
-                    <li class="sobre nav-item">
-                        <a class="nav-link text-light px-2 " href="#sobre">Sobre</a>
-                    </li>
-                    <li class="apoiadores nav-item">
-                        <a class="nav-link text-light px-2 " href="#apoiadores">Apoiadores</a>
-                    </li>
-                    <li class="carreiras nav-item">
-                        <a class="nav-link text-light px-2 " href="#carreiras">Carreiras</a>
-                    </li>
-                    <li class="depoimentos nav-item">
-                        <a class="nav-link text-light px-2 " href="#depoimentos">Depoimentos</a>
-                    </li>
-                    <li class="faq nav-item">
-                        <a class="nav-link text-light px-2 " href="#faq">FAQs</a>
-                    </li>
-                    <li class="contato nav-item">
-                        <a class="nav-link text-light px-2 " href="#contato">Contato</a>
-                    </li>
-                    <li class="nav-item d-flex  justify-content-center">
-                        <a class="headerBtn defaultBtn text-light " href="#">INSCREVA-SE</a>
-                    </li>
-                </ul>
+            <ul id="menu" role="menu">
+                <li class="inicio"><a href="#inicio">Inicio</a></li>
+                <li class="sobre"><a href="#sobre">Sobre</a></li>
+                <li class="apoiadores"><a href="#apoiadores">Apoiadores</a></li>
+                <li class="carreiras"><a href="#carreiras">Carreiras</a></li>
+                <li class="depoimentos"><a href="#depoimentos">Depoimentos</a></li>
+                <li class="faqs"><a href="#faq">FAQs</a></li>
+                <li class="contato"><a href="#contato">Contato</a></li>
+            </ul>
+
+            <a href="" class="defaultBtn">
+                Inscreva-se
+            </a>
         </nav>
+
     </header>
+
+
+
 
     <main>
 
         <!-- Primeira Sessao -->
-        <section id="inicio">
+        <section class="menutracker" id="inicio">
             <div class="container col-xxl-8 px-2" style="text-align: center;">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-4">
                     <div class="col-10 col-sm-8 col-lg-6">
@@ -76,7 +64,7 @@
 
 
         <!-- Video1 -->
-        <section id="sobre">
+        <section class="menutracker" id="sobre">
             <div class="container col-xxl-8 px-2 py-4" style="text-align: center; margin-bottom: 2%;">
                 <div class="row flex-lg align-items-center g-5 py-4">
                     <div class="col-10 col-sm-8 col-lg-6">
@@ -93,7 +81,7 @@
 
 
         <!-- Apoiadores -->
-        <section id="apoiadores" class="container">
+        <section class="menutracker" id="apoiadores" class="container">
             <div class="row" style="text-align: center; margin-bottom: 11%; margin-top: 8%;">
                 <div class="apoiadoresText mb-3 col-lg-4">
                     <h2 class="h2Padrao">Apoiadores</h2>
@@ -143,7 +131,7 @@
         </section>
 
 
-        <section id="carreiras"></section>
+        <section class="menutracker" id="carreiras"></section>
 
 
         <!-- Video2 -->
@@ -164,7 +152,7 @@
 
 
         <!-- Depoimentos-->
-        <section id="depoimentos">
+        <section class="menutracker" id="depoimentos">
             <h2 class="h2Padrao d-flex justify-content-center">Depoimentos</h2>
 
             <div class="cardSection row gap-5 mx-lg-auto" style="width: 70%; text-align: center; margin-bottom: 5%;">
@@ -218,7 +206,7 @@
 
 
         <!-- FAQ's -->
-        <section id="faq" class="faqBackground" style="padding-top: 2%; padding-bottom: 2%; margin-bottom: 5%;">
+        <section id="faq" class=" menutracker faqBackground" style="padding-top: 2%; padding-bottom: 2%; margin-bottom: 5%;">
             <p></p>
             <h2 class="h2Padrao d-flex justify-content-center text-light">FAQ's</h2>
             <div class="faq container py-4" style="width: 50%; text-align: center;">
@@ -286,7 +274,7 @@
 
 
         <!-- Contato -->
-        <section id="contato">
+        <section class="menutracker" id="contato">
             <div class="container" style="margin-bottom: 5%;">
                 <div class="row">
                     <div class="col-lg-6">
@@ -330,7 +318,7 @@
             </div>
         </section>
 
-
+        <!-- Footer -->
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

@@ -55,14 +55,14 @@ h1 {
 }
 
 .destacado {
-    color: rgba(235, 123, 60, 0.9)!important;
-    border-bottom: rgba(235, 123, 60, 0.9) solid 2px;
+    color: var(--main-orange)!important;
+    border-bottom: var(--main-orange) solid 2px;
     font-weight: bolder;
 }
 
 .defaultBtn {
     padding: 6px 32px;
-    background-color: rgba(235, 123, 60, 0.9);
+    background-color: var(--main-orange);
     border-radius: 20px;
     border: none;
     color: white;
