@@ -1,14 +1,16 @@
-@import url(./reset.css);
 @import url(./mobile.css);
-@import url(./style.css);
+@import url(./geral.css);
+
+/* @import url(./reset.css); */
+
 @import url(./apoiadores.css);
 @import url(./header.css);
 @import url(./faq.css);
 @import url(./contato.css);
 @import url(./depoimentos.css);
 @import url(./banner.css);
-
+@import url(./video.css);
 :root {
-  --main-orange: hsl(22, 81%, 58%);
-  --main-blue: hsl(220, 55%, 31%);
+    --main-orange: hsl(22, 81%, 58%);
+    --main-blue: hsl(220, 55%, 31%);
 }
