@@ -44,3 +44,9 @@
         right: 5%;
     }
 }
+
+@media (max-width: 430px) {
+    .gary {
+        right: 0;
+    }
+}
