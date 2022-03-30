@@ -1,4 +1,6 @@
 
+<<<<<<< HEAD
+=======
 #rodape {
     background-color: var(--main-blue);
     color: var(--main-orange);
@@ -14,6 +16,7 @@
     min-width: 290px;
 }
 
+>>>>>>> eb00890278c9d5097b9458db696efb4f598177cb
 html {
     scroll-padding-top: 15vh;
     overflow-x: hidden;

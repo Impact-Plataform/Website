@@ -14,3 +14,13 @@
 .logoimg {
     padding: 15px;
 }
+
+.row {
+    justify-content: center;
+}
+
+@media (max-width: 985px) {
+    .apoiadores {
+        padding: 10%
+    }
+}
