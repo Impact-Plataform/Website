@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 985px) {
-    .apoiadores {
+    #apoiadores .apoiadores {
         padding: 10%
     }
 }

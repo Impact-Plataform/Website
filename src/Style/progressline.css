@@ -2,7 +2,7 @@ body{
   font-family: tahoma;
 }
 
-h1{
+.carreiras h1{
   color: black;
   font-weight: 700;
   margin-top: 125px;
@@ -13,9 +13,8 @@ h1{
 }
 
 
-h1 span{
+.carreiras h1 span{
   color: rgba(0,0,0,.3);
-
 }
 
 .process-wrapper{
