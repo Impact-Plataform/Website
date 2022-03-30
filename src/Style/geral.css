@@ -14,14 +14,6 @@
     background: #555;
 }
 
-.row {}
-
-.lays {
-    height: 100%;
-    width: 100%;
-    min-width: 290px;
-}
-
 html {
     scroll-padding-top: 15vh;
     overflow-x: hidden;
