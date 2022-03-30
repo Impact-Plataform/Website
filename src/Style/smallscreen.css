@@ -1,0 +1,49 @@
+.defaultBtn{
+  font-size: 14px;
+  padding: .5 .5rem;
+}
+
+.logo img{
+  min-width: 100px;
+}
+#nav {
+  gap: 5vw;
+}
+
+.lays{ 
+  min-width: 200px;
+}
+
+.gary {
+  right: 20%;
+}
+
+.row{
+  justify-content: center;
+}
+#header {
+  position: fixed;
+  z-index: 999;
+}
+#layscontainer{
+  width: 100%;
+  padding-left: 0;
+}
+
+#video{
+  margin: 0;
+}
+
+.videocontainer{
+  margin-left: 0;
+}
+
+.videodescription{
+  width: 80%;
+}
+.sec-1-text{
+  margin-left: 0;
+}
+.paragraphPadrao {
+  font-size: 1em;
+}

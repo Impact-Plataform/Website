@@ -72,11 +72,7 @@
 #btn-mobile{
     display: none;
 }
-@media only screen and (min-width: 320px) and (max-width: 486px){
-    #nav {
-        gap: 5vw!important;
-    }
-}
+
 @media only screen and (max-width: 959px){
     #nav {
         gap:25vw;
