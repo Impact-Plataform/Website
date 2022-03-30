@@ -1,12 +1,4 @@
 const sections = document.querySelectorAll("section.menutracker");
-// sections.push(document.querySelector("#inicio"))
-// sections.push(document.querySelector("#sobre"))
-// sections.push(document.querySelector("#apoiadores"))
-// sections.push(document.querySelector("#carreiras"))
-// sections.push(document.querySelector("#depoimentos"))
-// sections.push(document.querySelector("#faq"))
-// sections.push(document.querySelector("#contato"))
-
 
 const btnMobile = document.querySelector("#btn-mobile");
 const navLi = document.querySelectorAll("nav ul li");
