@@ -14,6 +14,10 @@
 :root {
     --main-orange: hsl(22, 81%, 58%);
     --main-blue: hsl(220, 55%, 31%);
+
+}
+body{
+    font-family: 'Poppins', sans-serif;;
 }
 ::-webkit-scrollbar {
     width: 10px;

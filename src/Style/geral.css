@@ -18,7 +18,6 @@ html {
     scroll-padding-top: 15vh;
     overflow-x: hidden;
     width: 100vw;
-    /* height of sticky header */
 }
 
 h1 {
@@ -26,12 +25,12 @@ h1 {
 }
 
 .h2Padrao {
-    font-size: 1.7em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
 .paragraphPadrao {
-    font-size: 1.4em;
+    font-size: 2em;
 }
 
 #sobre {

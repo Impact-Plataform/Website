@@ -11,6 +11,8 @@
     padding: .5rem 2rem;
     width:max-content;
     height: fit-content;
+    font-size: 23px;
+    letter-spacing: 1px;
     background-color: var(--main-orange);
     border-radius: 20px;
     border: none;
@@ -62,6 +64,7 @@
 }
 
 #menu a {
+    font-size: 20px;
     display: block;
     padding: .5rem;
 }
@@ -103,7 +106,6 @@
         margin-left: auto;
         display: flex;
         padding: .5rem 1rem;
-        font-size: 1rem;
         border: none;
         background: none;
         cursor: pointer;
