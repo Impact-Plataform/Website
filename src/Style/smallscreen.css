@@ -1,9 +1,6 @@
 .defaultBtn{
   font-size: 14px;
-  padding: .5rem .5rem;
-}
-.logo img{
-  min-width: 100px;
+  padding: .5 .5rem;
 }
 #nav {
   gap: 5vw;
@@ -11,45 +8,36 @@
 
 .lays{ 
   min-width: 200px;
-  width: 100vw;
 }
 
 .gary {
-  right: 20%;
+  right: 15%;
 }
 
-#header {
-  position: fixed;
-  z-index: 999;
+.row{
+  justify-content: center;
 }
 #layscontainer{
   width: 100%;
-  padding: 0;
-  margin-top: 15vh;
+  padding-left: 0;
 }
 
 #video{
   margin: 0;
-  margin-left: 10px;
 }
-.banner-container .col-lg-12{
-  padding: 0;
+#rodape{
+  font-size: 1rem;
 }
-.video-container{
-  padding: 0;
-  width: 100%;
+.videocontainer{
+  margin-left: 0;
 }
 
 .videodescription{
   width: 80%;
 }
 .sec-1-text{
-  margin: 0;
+  margin-left: 0;
 }
 .paragraphPadrao {
   font-size: 1em;
-}
-
-.step-inner {
-  display: none;
 }

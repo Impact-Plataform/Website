@@ -23,9 +23,6 @@ window.addEventListener("scroll", () => {
   sectionTracker(sections)
 });
 
-
-
-
 function toggleMenu(event) {
   if(event.type === 'touchstart') event.preventDefault();
   const nav = document.querySelector("#nav");
@@ -38,5 +35,10 @@ function toggleMenu(event) {
     event.currentTarget.setAttribute('aria-label','Abrir menu');
   }
 }
+document.querySelectorAll("#nav ul li").forEach((li) => {
+  li.addEventListener("click", toggleMenu);
+});
+
+
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);

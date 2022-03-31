@@ -13,13 +13,7 @@
     width: 100%;
     min-width: 290px;
 }
-.banner-container {
-    background-image: url(../medias/pessoas/banner.png);
-    background-attachment:fixed; 
-    background-size: cover;
-    width: 100%; 
-    margin-bottom: 5%;
-}
+
 html {
     scroll-padding-top: 15vh;
     overflow-x: hidden;
