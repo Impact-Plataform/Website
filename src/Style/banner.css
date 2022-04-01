@@ -4,7 +4,7 @@
 }
 
 #banner>div {
-    height: 700px;
+    height: 500px;
 }
 
 .textodegrade {
@@ -14,7 +14,7 @@
 .gary {
     position: absolute;
     right: 15%;
-    top: 70%;
+    top: 60%;
     opacity: 1;
 }
 
