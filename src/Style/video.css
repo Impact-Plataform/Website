@@ -1,25 +1,26 @@
-#video {
-    height: 400px;
-    width: 650px;
-    padding-right: 15%;
+.video {
+    height: calc(200px + 20vh);
+    width: calc(80% + 5vw);
+    /* height: 400px;
+    width: 650px; */
 }
-
+/* 
 @media (max-width: 990px) {
-    #video {
+    .video {
         margin-left: -20%;
         padding-right: 0;
     }
 }
 
 @media (max-width: 768px) {
-    #video {
+    .video {
         width: 450px;
         height: 350px;
     }
 }
 
 @media (max-width: 450px) {
-    #video {
+    .video {
         width: 350px;
         height: 200px;
         margin-left: 0%;
@@ -27,7 +28,7 @@
 }
 
 @media (max-width: 380px) {
-    #video {
+    .video {
         width: 300px;
     }
-}
+} */
