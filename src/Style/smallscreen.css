@@ -9,11 +9,21 @@
 .lays{ 
   min-width: 200px;
 }
-
-.gary {
-  right: 15%;
+.card{
+  height: auto;
+  font-size: 1rem;
 }
-
+.gary {
+  right: 5%;
+}
+.text-nome{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.text-title{
+  font-weight: 200;
+  font-size: 1.0rem;
+}
 .row{
   justify-content: center;
 }
@@ -29,7 +39,7 @@
   font-size: 1rem;
 }
 .videocontainer{
-  margin-left: 0;
+  padding-left: 0;
 }
 
 .videodescription{
@@ -39,5 +49,9 @@
   margin-left: 0;
 }
 .paragraphPadrao {
-  font-size: 1em;
+  font-size: 1.5em;
+}
+.h2Padrao {
+  font-size: 2em;
+  font-weight: bold;
 }

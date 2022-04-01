@@ -45,7 +45,7 @@
     #FaqItem {
         margin-top: 12%;
     }
-    #Card {
+    .Card {
         min-width: 110%;
     }
 }

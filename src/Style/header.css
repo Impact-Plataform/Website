@@ -6,26 +6,7 @@
     background-color: rgba(255, 255, 255, 0.1);
     color: white;
 }
-.defaultBtn {
-    box-sizing: border-box;
-    padding: .5rem 2rem;
-    width:max-content;
-    height: fit-content;
-    font-size: 23px;
-    letter-spacing: 1px;
-    background-color: var(--main-orange);
-    border-radius: 20px;
-    border: none;
-    color: white;
-    transition: .5s;
-    text-decoration: none;
-}
 
-.defaultBtn:hover {
-    color: white;
-    box-shadow: 0 5px 2px 1px rgba(0, 0, 0, 0.2);
-    transform: scale(1.03);
-}
 #nav{
     display: flex;
     gap: 5vw;
