@@ -36,7 +36,7 @@
     .paragraph,
     .faq {
         margin-left: 8%;
-        margin-right: 8%;
+        /* margin-right: 8%; */
         text-align: center;
     }
     .faq {
