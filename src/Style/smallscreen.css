@@ -1,57 +1,70 @@
-.defaultBtn{
-  font-size: 14px;
-  padding: .5 .5rem;
+.defaultBtn {
+    font-size: 14px;
+    padding: .5 .5rem;
 }
+
 #nav {
-  gap: 5vw;
+    gap: 5vw;
 }
 
-.lays{ 
-  min-width: 200px;
+.lays {
+    min-width: 200px;
+    width: 100%;
 }
-.card{
-  height: auto;
-  font-size: 1rem;
+
+.card {
+    height: auto;
+    font-size: 1rem;
 }
+
 .gary {
-  right: 5%;
-}
-.text-nome{
-  font-weight: 500;
-  font-size: 1.5rem;
-}
-.text-title{
-  font-weight: 200;
-  font-size: 1.0rem;
-}
-.row{
-  justify-content: center;
-}
-#layscontainer{
-  width: 100%;
-  padding-left: 0;
+    right: 5%;
 }
 
-.video{
-  width: 110%;
-}
-#rodape{
-  font-size: 1rem;
-}
-.videocontainer{
-  padding-left: 0;
+.text-nome {
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
-.videodescription{
-  width: 80%;
+.text-title {
+    font-weight: 200;
+    font-size: 1.0rem;
 }
-.sec-1-text{
-  margin-left: 0;
+
+.row {
+    justify-content: center;
 }
+
+#layscontainer {
+    width: 100%;
+    padding-left: 0;
+}
+
+.video {
+    width: 110%;
+}
+
+#rodape {
+    font-size: 1rem;
+}
+
+.videocontainer {
+    padding-left: 0;
+}
+
+.videodescription {
+    width: 80%;
+}
+
+.sec-1-text {
+    margin-left: 0;
+}
+
 .paragraphPadrao {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
+
 .h2Padrao {
-  font-size: 2em;
-  font-weight: bold;
+    font-size: 2em;
+    font-weight: bold;
 }
