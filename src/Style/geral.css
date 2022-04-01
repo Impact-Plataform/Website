@@ -8,6 +8,13 @@
     box-shadow: 0 3px 2px 1px rgba(0, 0, 0, 0.2);
     height: 10vh;
 }
+
+#layscontainer{
+    margin-top: 0;
+}
+#inicio{ 
+    height: 100vh;
+}
 .defaultBtn {
     box-sizing: border-box;
     padding: .5rem 2rem;
@@ -30,16 +37,15 @@
 }
 .lays {
     height: 100%;
-    width: 100%;
+    width: 123%;
     min-width: 290px;
 }
 
 .card {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.3vw, 1.5vw);
     height: 70%;
 }
 .card-subject{
-
     transition: all .3s ease;
 }
 .card-subject:hover{

@@ -10,7 +10,6 @@
 @import url(./depoimentos.css);
 @import url(./banner.css);
 @import url(./video.css);
-@import url(./inicio.css);
 :root {
     --main-orange: hsl(22, 81%, 58%);
     --main-blue: hsl(220, 55%, 31%);
