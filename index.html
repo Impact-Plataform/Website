@@ -6,8 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="src/Style/style.css">
-  <link rel="stylesheet" href="src/Style/responsive.css" media="screen and (max-width: 769px)">
+  <link rel="stylesheet" href="src/Style/responsive.css" media="screen and (max-width: 1025px)">
 </head>
 
 <body>
@@ -17,24 +20,109 @@
       <a href="#" class="logo">
         <img src="src/medias/logomarcas/plataformaLogoBranca.svg" alt="Logomarca da Plataforma impact">
       </a>
-      <nav class="nav">
-        <button class="btn-mobile" aria-haspopup="true" aria-label="Abrir menu" aria-controls="menu"
-          aria-expanded="false">
-          <span id="hamburger"></span>
-        </button>
-        <ul role="menu">
-          <li class="inicio destacado"><a href="#inicio">Inicio</a></li>
-          <li class="sobre"><a href="#sobre">Sobre</a></li>
-          <li class="apoiadores"><a href="#apoiadores">Apoiadores</a></li>
-          <li class="carreiras"><a href="#carreiras">Carreiras</a></li>
-          <li class="depoimentos"><a href="#depoimentos">Depoimentos</a></li>
-          <li class="faqs"><a href="#faqs">FAQs</a></li>
-          <li class="contato"><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-      <a href="#" class="btn">Inscreva-se</a>
+      <div class="inner-container">
+
+        <nav class="nav">
+          <button class="btn-mobile" aria-haspopup="true" aria-label="Abrir menu" aria-controls="menu"
+            aria-expanded="false">
+            <span id="hamburger"></span>
+          </button>
+          <ul class="menu" role="menu">
+            <li class="inicio destacado"><a href="#inicio">Inicio</a></li>
+            <li class="sobre"><a href="#sobre">Sobre</a></li>
+            <li class="apoiadores"><a href="#apoiadores">Apoiadores</a></li>
+            <li class="carreiras"><a href="#carreiras">Carreiras</a></li>
+            <li class="depoimentos"><a href="#depoimentos">Depoimentos</a></li>
+            <li class="faqs"><a href="#faqs">FAQs</a></li>
+            <li class="contato"><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="btn">Inscreva-se</a>
+      </div>
     </div>
   </header>
+
+  <section class="menu-tracker inicio hero">
+    <div class="container">
+      <h1>Estamos preparando a próxima geração de talentos tecnológicos &ltocultos&gt</h1>
+      <img src="src/medias/pessoas/lays.png" alt="Foto Lays">
+    </div>
+  </section>
+
+  <main>
+
+    <!-- Sobre -->
+    <section class="menu-tracker sobre">
+      <div class="container">
+        <div class="video"></div>
+        <div class="description">
+          <p>Plataforma ajuda jovens de favelas e periferias a transformarem seu potencial em prosperidade. Aqui
+            formamos profissionais promissores em constante evolução.</p>
+          <a href="#" class="btn">INSCREVA-SE AGORA</a>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- Apoiadores -->
+    <section class="menutracker apoiadores">
+      <div class="container">
+        <div class="text">
+          <h1>Apoiadores</h1>
+          <p>Quer fazer parte?</p>
+          <a href="#contato" class="btn"> Apoie-nos</a>
+        </div>
+        <div class="carousel"></div>
+      </div>
+    </section>
+
+
+    <!-- Banner -->
+
+    <section class="banner">
+      <div class="container">
+        <div class="text">
+          <h2>O que é a Plataforma?</h2>
+          <p>"A Plataforma é um projeto social de educação em tecnologia que faz uma ponte entre mercados em busca por
+            talento e jovens procurando oportunidades."
+          </p>
+        </div>
+      </div>
+
+      <div class="gary">
+        <span class="name">Gary Carrier</span>
+        <span class="title">Fundador & CEO</span>
+        <img src="src/medias/pessoas/gary.svg" alt="Gary, CEO Plataforma Impact">
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+
+
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="src/Script/carousel.js"></script>
+  <script src="src/Script/script.js"></script>
 </body>
 
 </html>

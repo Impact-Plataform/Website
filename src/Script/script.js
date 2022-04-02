@@ -1,8 +1,8 @@
 const sections = document.querySelectorAll("section.menutracker");
 
-const btnMobile = document.querySelector("#btn-mobile");
+const btnMobile = document.querySelector(".btn-mobile");
 const navLi = document.querySelectorAll("nav ul li");
-const header = document.querySelector("#header")
+const header = document.querySelector("header")
 
 function sectionTracker(sections) {
   let current = "";
@@ -25,7 +25,7 @@ window.addEventListener("scroll", () => {
 
 function toggleMenu(event) {
   if(event.type === 'touchstart') event.preventDefault();
-  const nav = document.querySelector("#nav");
+  const nav = document.querySelector(".nav");
   nav.classList.toggle("active");
   const active = nav.classList.contains("active");
   event.currentTarget.setAttribute('aria-expanded',active);
@@ -35,7 +35,7 @@ function toggleMenu(event) {
     event.currentTarget.setAttribute('aria-label','Abrir menu');
   }
 }
-document.querySelectorAll("#nav ul li").forEach((li) => {
+document.querySelectorAll(".nav ul li").forEach((li) => {
   li.addEventListener("click", toggleMenu);
 });
 
