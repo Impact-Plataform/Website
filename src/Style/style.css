@@ -98,6 +98,7 @@ main {
 header {
     position: sticky;
     top: 0;
+    z-index: 999;
     background-color: var(--main-blue);
     box-shadow: 0 3px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -139,7 +140,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: rgba(255, 255, 255, 0.15)
+    background: rgba(255, 255, 255, 0.15);
+    color:white;
 }
 
 .inner-container {
