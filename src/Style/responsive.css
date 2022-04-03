@@ -5,19 +5,39 @@ html {
 @media screen and (max-width: 1025px) {
     header .container {
         margin: 0;
+        gap: 5rem;
     }
-    header .container {
-        gap: 7rem;
+    main {
+        gap: 15vh;
+    }
+    section.hero {
+        height: auto;
+    }
+    section.hero .container{
+        align-items: flex-start;
     }
     section.hero img {
-        width: 50%;
+        width: 60%;
+        height: 50%;
     }
     .gary {
         top: 70%;
     }
+    #depoimentos ul {
+        grid-template-columns: repeat(1, minmax(400px, 1fr));
+    }
+    #depoimentos .depoimento {
+        width: 50%;
+    }
+    #depoimentos .depoimento p {
+        height: fit-content;
+    }
 }
 
 @media screen and (max-width: 959px) {
+    .container:not(.menu-container) {
+        flex-direction: column;
+    }
     .menu {
         display: flex;
         flex-direction: column;
@@ -88,32 +108,33 @@ html {
     .apoiadores h1 {
         font-size: 7rem;
     }
-    .apoiadores .container {
-        flex-direction: column;
-    }
     .apoiadores .carousel {
         width: 100%;
     }
     .apoiadores .text {
         width: 100%;
     }
+
 }
 
 @media screen and (max-width: 768px) {
-    .hero .container {
-        flex-direction: column;
-        text-align: center;
-    }
     .hero .container img {
         order: -1;
         width: 100%;
     }
     .sobre .container {
         display: flex;
-        flex-direction: column;
         align-items: center;
         gap: 5rem;
     }
+    .contato .text-wrapper,
+    .contato form {
+        width: 100%;
+    }
+    .contato .text-wrapper{
+        margin-bottom: 5rem;
+    }
+
 }
 
 @media screen and (max-width: 452px) {
@@ -133,6 +154,16 @@ html {
     }
     .gary {
         right: 25%;
+    }
+    #depoimentos .container{
+        margin-left: 35px;
+    }
+    #depoimentos .depoimento {
+        width: 90%;
+    }
+    #faqs .container {
+        margin: 0;
+        width: 90%;
     }
 }
 
