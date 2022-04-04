@@ -236,6 +236,15 @@ section.hero h1 {
     margin-bottom: 15rem;
 }
 
+.sobre .ratio-16x9 {
+    --bs-aspect-ratio: 56.25%;
+}
+
+.sobre .ratio {
+    position: relative;
+    width: 100%;
+}
+
 
 /*  -------- Apoiadores -------- */
 
@@ -256,17 +265,6 @@ section.hero h1 {
 .apoiadores .container {
     gap: 10rem;
 }
-
-.apoiadores .carousel {
-    width: 70%;
-    height: 20vh;
-    background-color: red;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 1rem;
-}
-
 
 /*  -------- Banner -------- */
 
