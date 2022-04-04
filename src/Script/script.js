@@ -1,5 +1,5 @@
-const sections = document.querySelectorAll("section.menutracker");
-
+const sections = document.querySelectorAll("section.menu-tracker");
+console.log(sections);
 const btnMobile = document.querySelector(".btn-mobile");
 const navLi = document.querySelectorAll("nav ul li");
 const header = document.querySelector("header")
@@ -13,9 +13,9 @@ function sectionTracker(sections) {
     }
   });
   navLi.forEach((li) => {
-    li.classList.remove("destacado");
+    li.classList.remove("current-section");
     if (li.classList.contains(current)) {
-      li.classList.add("destacado");
+      li.classList.add("current-section");
     }
   });
 }

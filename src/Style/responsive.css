@@ -8,14 +8,14 @@ html {
         gap: 5rem;
     }
     main {
-        gap: 15vh;
+        gap: 100px;
     }
     section.hero {
         height: auto;
     }
-    section.hero .container{
+    /* section.hero .container {
         align-items: flex-start;
-    }
+    } */
     section.hero img {
         width: 60%;
         height: 50%;
@@ -44,7 +44,7 @@ html {
         position: absolute;
         width: 100%;
         height: 0;
-        top: 6vh;
+        top: 85px;
         right: 0;
         background-color: var(--main-blue);
         z-index: 100;
@@ -105,6 +105,9 @@ html {
     .nav.active #hamburger::before {
         transform: rotate(-135deg);
     }
+    section.hero h1 {
+        padding: 0;
+    }
     .apoiadores h1 {
         font-size: 7rem;
     }
@@ -114,13 +117,15 @@ html {
     .apoiadores .text {
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 768px) {
     .hero .container img {
         order: -1;
         width: 100%;
+    }
+    .inner-container {
+        gap: 8vw;
     }
     .sobre .container {
         display: flex;
@@ -131,15 +136,14 @@ html {
     .contato form {
         width: 100%;
     }
-    .contato .text-wrapper{
+    .contato .text-wrapper {
         margin-bottom: 5rem;
     }
-
 }
 
 @media screen and (max-width: 452px) {
     header .container {
-        gap: 1rem;
+        /* gap: 1rem; */
         justify-content: space-around;
     }
     header .inner-container {
@@ -155,7 +159,7 @@ html {
     .gary {
         right: 25%;
     }
-    #depoimentos .container{
+    #depoimentos .container {
         margin-left: 35px;
     }
     #depoimentos .depoimento {
@@ -164,6 +168,9 @@ html {
     #faqs .container {
         margin: 0;
         width: 90%;
+    }
+    .menu {
+        top: 75px;
     }
 }
 
