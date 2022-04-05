@@ -41,14 +41,9 @@ html {
 
 html,
 body {
-    height: 100vh;
     font-family: 'Poppins', sans-serif;
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
-}
-
-.container {
-    height: auto!important;
 }
 
 body {
@@ -91,9 +86,17 @@ main {
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 80%;
     margin: auto;
+    width: 90%;
+    height: auto!important;
+}
+
+details summary {
+    cursor: pointer;
+}
+
+details summary>* {
+    display: inline;
 }
 
 
@@ -108,12 +111,7 @@ header {
 }
 
 header .container {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 90%;
-    /* max-width: 1200px; */
-    margin: auto;
 }
 
 header img {
@@ -187,15 +185,6 @@ section.hero {
     height: auto;
 }
 
-section.hero .container {
-    width: 90%;
-    /* max-width: 980px; */
-    margin: auto;
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
 section.hero img {
     height: 100%;
 }
@@ -212,13 +201,9 @@ section.hero h1 {
 /*  -------- Sobre -------- */
 
 .sobre .container {
-    width: 80%;
     gap: 15%;
     margin: auto;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    height: 25vh;
 }
 
 .sobre .description {
@@ -265,6 +250,7 @@ section.hero h1 {
 .apoiadores .container {
     gap: 10rem;
 }
+
 
 /*  -------- Banner -------- */
 
@@ -371,10 +357,6 @@ section.hero h1 {
     height: 200px;
 }
 
-#depoimentos .container {
-    width: 85%;
-}
-
 #depoimentos .depoimento a {
     display: flex;
     flex-direction: column;
@@ -399,49 +381,68 @@ section.hero h1 {
     #depoimentos .depoimento p {
         height: 800px;
     }
-    section.hero .container {
-        height: auto;
-    }
 }
 
 
 /*  -------- FAQs -------- */
-
-.accordion-button,
-.accordion-collapse {
-    font-size: 1.2em;
-}
-
-.faqBackground,
-.accordion-item,
-.accordion-button,
-.accordion-button:not(.collapsed) {
-    background-color: var(--main-blue);
-    z-index: 0;
-}
-
 #faqs {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
+    background-color: var(--main-blue);
 
-#accordionFlushExample {
-    display: flex;
+}
+#faqs h1 {
+    font-size: 8rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+#faqs .container{
+    padding: 10rem 0;
     flex-direction: column;
-    gap: 3rem;
+    align-items:initial;
+    width: 60%;
+}
+#faqs hr{
+    height: 5px;
+    background: var(--main-orange);
+}
+details,
+summary {
+    outline: none;
+}
+details h2 {
+    color: white;
+}
+details summary {
+    list-style-type: none;
+    padding: 10px 20px 8px;
+    position: relative;
 }
 
-.accordion-button {
-    font-size: 1em;
+summary::after {
+    content: '\25BC';
+    color: var(--main-orange);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
 }
 
-.accordion-body {
-    font-weight: 200;
+details {
+    margin-bottom: 10px;
 }
 
-.faq.container {
-    width: 50%;
-    text-align: start;
+details p {
+    color: white;
+    font-weight: 300;
+    padding: 4rem 5rem;
+    text-align: justify;
+}
+
+details[open] summary {
+    color: var(--main-orange);
+}
+
+details[open] summary::after {
+    content: '\25B2';
 }
 
 
