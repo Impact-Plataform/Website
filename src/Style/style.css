@@ -37,6 +37,7 @@ ul {
 html {
     /* a cada 1rem será considera 10px */
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 html,
@@ -79,7 +80,7 @@ a {
 main {
     display: flex;
     flex-direction: column;
-    gap: 250px;
+    gap: 150px;
     margin-bottom: 100px;
 }
 
@@ -107,7 +108,7 @@ header {
     top: 0;
     z-index: 999;
     background-color: var(--main-blue);
-    box-shadow: 0 3px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.35);
 }
 
 header .container {
@@ -117,7 +118,7 @@ header .container {
 header img {
     width: 150px;
     margin-left: 20px;
-    padding: 15px 0;
+    padding: 15px 0 0 0;
 }
 
 .btn-mobile {
@@ -147,9 +148,9 @@ header nav ul li a:hover {
 }
 
 .current-section {
-    color: var(--main-orange)!important;
     border-bottom: var(--main-orange) solid 2px;
     font-weight: bolder;
+    transform: scale(1.1);
 }
 
 .inner-container {
@@ -159,6 +160,7 @@ header nav ul li a:hover {
 }
 
 .btn {
+    cursor: pointer;
     padding: 1rem 2rem;
     display: inline-block;
     width: max-content;
@@ -221,11 +223,13 @@ section.hero h1 {
     margin-bottom: 15rem;
 }
 
-.sobre .ratio-16x9 {
-    --bs-aspect-ratio: 56.25%;
+.sobre .video-container iframe {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
 }
 
-.sobre .ratio {
+.sobre .video-container {
     position: relative;
     width: 100%;
 }
@@ -248,7 +252,47 @@ section.hero h1 {
 }
 
 .apoiadores .container {
-    gap: 10rem;
+    gap: 5rem;
+}
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.propagandas {
+    width: 100%;
+    height: 85%;
+    border-radius: 10px;
+    border: solid 1px rgba(0, 0, 0, .08);
+    box-shadow: -5px 3px 10px rgba(0, 0, 0, .45);
+    background-color: rgba(0, 0, 0, .05);
+    text-align: center;
+}
+
+.supporters {
+    flex: 0 0 auto;
+    width: 58.666667%;
+}
+
+.logoimg {
+    width: 100%;
+    padding: 15px;
+}
+
+.slick-next {
+    right: -5%;
+}
+
+.slick-prev {
+    left: -5%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: darkgray;
+    margin-right: 20px;
+    font-size: 3rem;
 }
 
 
@@ -385,32 +429,40 @@ section.hero h1 {
 
 
 /*  -------- FAQs -------- */
+
 #faqs {
     background-color: var(--main-blue);
-
 }
+
 #faqs h1 {
     font-size: 8rem;
     color: white;
     margin-bottom: 5rem;
 }
-#faqs .container{
+
+#faqs .container {
     padding: 10rem 0;
     flex-direction: column;
-    align-items:initial;
+    align-items: initial;
     width: 60%;
 }
-#faqs hr{
-    height: 5px;
-    background: var(--main-orange);
+
+#faqs hr {
+    border: none;
+    border-radius: 25px;
+    height: 3px;
+    background: rgba( 206, 120, 70, .5);
 }
+
 details,
 summary {
     outline: none;
 }
+
 details h2 {
     color: white;
 }
+
 details summary {
     list-style-type: none;
     padding: 10px 20px 8px;
@@ -456,15 +508,21 @@ details[open] summary::after {
     text-align: center;
     align-items: center;
     gap: 10rem;
+    margin-left: 5%;
 }
 
 .contato p {
+    padding: 1rem 5rem;
     font-weight: 400;
     font-size: 3rem;
 }
 
+.contato h1 {
+    font-size: 6.5rem;
+}
+
 .contato .logo {
-    width: 55%;
+    width: 40%;
 }
 
 .contato .icons {
@@ -473,15 +531,19 @@ details[open] summary::after {
     padding: 0;
 }
 
-.contato .icons a {
-    height: fit-content;
+.contato .icons img {
+    padding: 5px;
+    border-radius: 8px;
     transition: all 250ms ease;
 }
 
-.contato .icons a:hover {
+.contato .icons img:hover {
     opacity: 0.8;
-    transform: scale(1.01);
-    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, .2);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contato form {
+    margin-left: 10%;
 }
 
 .contato form label {
@@ -491,17 +553,22 @@ details[open] summary::after {
 }
 
 .contato .container {
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .contato input,
 .contato textarea {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(170, 170, 170);
     display: block;
     margin-bottom: 20px;
-    padding: 10px 15px;
-    width: 95%;
+    padding: 10px 13px;
+    width: 100%;
     border-radius: 5px;
+}
+
+.contato input {
+    height: 6rem;
+    font-size: 1.6rem;
 }
 
 
