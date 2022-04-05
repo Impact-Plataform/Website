@@ -38,6 +38,7 @@ html {
     /* a cada 1rem será considera 10px */
     font-size: 62.5%;
     scroll-behavior: smooth;
+    scroll-padding-top: 15vh;
 }
 
 html,
@@ -281,13 +282,12 @@ section.hero h1 {
 }
 
 .slick-next {
-    right: -5%;
+    right: -3%;
 }
 
 .slick-prev {
-    left: -5%;
+    left: -4%;
 }
-
 .slick-prev:before,
 .slick-next:before {
     color: darkgray;
@@ -451,7 +451,7 @@ section.hero h1 {
     border: none;
     border-radius: 25px;
     height: 3px;
-    background: rgba( 206, 120, 70, .5);
+    background: rgba(199, 199, 199, 0.5);
 }
 
 details,
@@ -471,7 +471,7 @@ details summary {
 
 summary::after {
     content: '\25BC';
-    color: var(--main-orange);
+    color: rgba(199, 199, 199, 0.5);
     position: absolute;
     right: 10px;
     top: 10px;
@@ -490,7 +490,7 @@ details p {
 }
 
 details[open] summary {
-    color: var(--main-orange);
+    color: rgba(199, 199, 199, 0.5);
 }
 
 details[open] summary::after {
