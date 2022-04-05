@@ -38,7 +38,7 @@ html {
     /* a cada 1rem será considera 10px */
     font-size: 62.5%;
     scroll-behavior: smooth;
-    scroll-padding-top: 15vh;
+    scroll-padding-top: 100px;
 }
 
 html,
@@ -399,6 +399,7 @@ section.hero h1 {
 #depoimentos .depoimento img {
     width: 200px;
     height: 200px;
+    border-radius: 50%;
 }
 
 #depoimentos .depoimento a {
