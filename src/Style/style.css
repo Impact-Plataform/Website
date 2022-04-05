@@ -91,6 +91,8 @@ main {
     margin: auto;
     width: 80%;
     height: auto!important;
+    max-width: 1200px;
+    justify-content: space-between;
 }
 
 details summary {
