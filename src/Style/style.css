@@ -423,10 +423,17 @@ section.hero h1 {
     font-weight: 700;
     margin-bottom: 1rem;
 }
+#depoimentos .slick-next {
+    right: -9%;
+}
+
+#depoimentos .slick-prev {
+    left: -10%;
+}
 
 @media screen and (max-width: 1440px) {
     #depoimentos .padrao-depoimento2 p {
-        height: 800px;
+        height: auto;
     }
 }
 
